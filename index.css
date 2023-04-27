@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    display: flex;
+    padding: 1em 2em;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px .5px .5px 0px #c3c3c3;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.header-one{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
+
+.right-side ul {
+    display: none;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+
+.right-side ul li a {
+    transition: .2s;
+}
+
+.right-side ul li a:hover {
+    color: #F4A002;
+}
+
+
+.right-side ul img{
+    height: 1.5rem;
+}
+
+.right-side a {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.search-icon{
+    margin-left: 1rem;
+}
+
+.news-section{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.hamburger-bar{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo-uib{
+    width: 10rem;
+}
+
+
+.navbar a img {
+    width: 1.6rem;
+}
+
+.navbar .bar-1,.bar-2,.bar-3 
+{
+        width: 25px;
+        height: 2px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+.right-side .hamburger-bar{
+    margin-left: 2.5rem;
+}
+
+.uib-image{
+    background-image: url(images/2.jpg);
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+
+.uib-image-2{
+    background-image: url(images/2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+
+section {
+    font-family: 'Poppins',sans-serif;
+}
+
+section h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.title{
+    padding: 1rem 0rem;
+    margin: 0rem 3rem;
+}
+
+.news{
+    margin:3.1rem ;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card{
+    box-shadow: 0px 0px 50px 20px #efefef;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom:2.3rem ;
+}
+
+.card img{
+    width: 100%;
+    display: none;
+}
+
+.card-news{
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 15px 19px;
+    
+}
+
+.card-news p {
+    font-size: .875em;
+    color: #6d7c90;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.activities{
+    text-align: center;
+    padding: 5px 0px 93px;
+}
+
+.activities  h2{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+
+.news-section > .news > .activities > h2,p {
+    padding: 30px 0;
+}
+
+.training-sertification{
+    background-color: #F4A002;
+    color: white;
+    text-align: left;
+    padding: 41px 33px;
+}
+
+.training-sertification h2{
+    font-size: 39px;
+    font-weight: 400;
+}
+
+.partner-section{
+    max-width: 1280px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.partner-section img{
+    width: 50vw;
+    object-fit: contain;
+    
+}
+
+.training-sertification p{
+    font-weight: 200;
+}
+.partner-container{
+    padding: 50px 0 95px;
+    text-align: center;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.partner-container h2{
+    font-size: 39px;
+    font-weight: 800;
+    padding: 0 0 10px;
+}
+
+.partner-logo{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap:2rem;
+      padding: 30px 0;
+      margin: 0 41px 0 41px;
+     justify-items: center;
+}
+
+.partner-logo .logo-lpjk{
+    width: 50%;
+}
+
+.partner-logo img{
+    width: 100%;
+    padding: 2rem 0;
+}
+
+footer{
+    font-family: 'Poppins',sans-serif;
+    background-color:#7a7a7a;
+    color: white;
+    
+}
+
+.university-address{
+    color: white;
+    margin: 0px auto;
+    padding: 30px 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1280px;
+    gap: 2rem;
+}
+
+.university-address p{
+    font-size: 14px;
+}
+
+iframe {
+    border: 1px solid black;
+    width: 100%; /* takes precedence over the width set with the HTML width attribute */
+    height: 15rem;
+}
+
+.uib-company{
+    text-align: center;
+    background-color: #303030;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.instagram{
+    width: 32px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(255, 44, 115);
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-icon{
+    position:absolute;
+
+}
+
+@media (min-width:766px) {
+    .uib-image{
+        height: 20rem;
+    }
+
+    .partner-logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2rem;
+        padding: 30px 0;
+        margin: 0 41px 0 41px;
+       justify-items: center;
+  }
+
+    .partner-logo img{
+        width: 50%;
+        padding: 2rem 0;
+    }
+}
+
+@media (min-width:980px) {
+    .uib-image{
+        height: 25rem;
+    }
+
+    .news{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .university-address{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .partner-logo{
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 0;
+    }
+
+    .partner-logo img{
+        width: 70%;
+        padding: 2rem 0;
+    }
+
+    .hamburger-bar{
+        display: none;
+    }
+
+    .card img{
+        width: 100%;
+        display: block;
+    }
+
+    .partner-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .training-sertification{
+        padding: 124px 99px;
+    }
+
+    .right-side ul {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        align-items: center;
+    }
+
+
+}
