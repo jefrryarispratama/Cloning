@@ -1,24 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        ul {
+            list-style: none;
+            background: #22438c;
+        }
+
+        ul li{
+            display: inline-block;
+            position: relative;
+        }
+
+        ul li a{
+            display: block;
+            padding: 20px 25px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        ul li ul.dropdown li {
+            display: block;
+        }
+
+        ul li ul.dropdown{
+            width: 100%;
+            background: #22438c;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+
+        ul li a:hover{
+            background: #112c66;
+        }
+
+        ul li a:hover ul.dropdown{
+            display: block;
+
+        }
+
+
+
+
+    </style>
+</head>
+
 <body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Languages</a>
+            <ul class="dropdown">
+                <li><a href="3">html</a></li>
+                <li><a href="3">css</a></li>
+                <li><a href="3">javascipt</a></li>
+                <li><a href="3">php</a></li>
+            </ul>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
 
-<h1>My First Google Map</h1>
-
-<div id="googleMap" style="width:100%;height:400px;"></div>
-
-    <script>
-    function myMap() {
-    var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
-    </script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-
-
-    <iframe src="" frameborder="0"></iframe>
 </body>
+
 </html>
